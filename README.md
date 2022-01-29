@@ -1,0 +1,2 @@
+# ZalWitrynySPA
+ Aplikacja zaliczeniowa
