@@ -8,12 +8,18 @@ import { environment } from '../environments/environment';
 //Moje komponenty
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NawigacjaComponent } from './nawigacja/nawigacja.component';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import { BanerComponent } from './baner/baner.component';
+import { TrescComponent } from './tresc/tresc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NawigacjaComponent
+    NawigacjaComponent,
+    BanerComponent,
+    TrescComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +30,10 @@ import { NawigacjaComponent } from './nawigacja/nawigacja.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

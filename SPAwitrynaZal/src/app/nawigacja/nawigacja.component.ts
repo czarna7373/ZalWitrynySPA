@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nawigacja.component.scss']
 })
 export class NawigacjaComponent implements OnInit {
-
+  title = 'Studio Urody „Czerwony Pazur”'
   constructor() { }
 
   ngOnInit(): void {
