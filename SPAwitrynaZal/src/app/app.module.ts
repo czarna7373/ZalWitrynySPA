@@ -20,8 +20,6 @@ import { DataService } from './data.service';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ChildOutputComponent } from './child-output/child-output.component';
-import 'hammerjs';
-
 
 
 @NgModule({

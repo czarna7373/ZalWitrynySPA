@@ -1,7 +1,9 @@
-<div class="card bg-light mb-3" style="max-width: 18rem;">
+<div class="card w-100">
   <div class="card-header">Treść wiadomości</div>
   <div class="card-body">
     <input [(ngModel)]="msg">
-    <button (click)="btnOnClick()" class="btn btn-success" type="button">Wyślij wiadomość</button>
+    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutGap="10px grid">
+    <button (click)="btnOnClick()" class="btn btn-success" type="button" style="margin-top:20px">Wyślij wiadomość</button>
+    </div>
   </div>
 </div>

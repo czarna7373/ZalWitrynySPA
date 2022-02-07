@@ -23,7 +23,7 @@
     "typeRoots": [
       "../node_modules/@types"
     ],
-    "types": ["hammerjs"]
+    "types": ["jest"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
