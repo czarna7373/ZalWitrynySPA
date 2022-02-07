@@ -20,7 +20,9 @@ import { DataService } from './data.service';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ChildOutputComponent } from './child-output/child-output.component';
-
+import { MatMenuModule } from '@angular/material/menu';
+import { ZakladkiComponent } from './zakladki/zakladki.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { ChildOutputComponent } from './child-output/child-output.component';
     ChildOutputComponent,
     NawigacjaComponent,
     BanerComponent,
-    TrescComponent
+    TrescComponent,
+    ZakladkiComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,9 @@ import { ChildOutputComponent } from './child-output/child-output.component';
     MatCardModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    MatMenuModule,
+    MatTabsModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

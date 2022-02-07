@@ -1,6 +1,14 @@
 <app-nawigacja></app-nawigacja>
-<app-baner></app-baner>
-<app-tresc></app-tresc>
-<div class="container-fluid">
-  <app-parent></app-parent>
-</div>
+<mat-tab-group animationDuration="0ms">
+  <mat-tab label="Main">
+    <app-baner></app-baner>
+    <div class="container-fluid">
+      <app-parent></app-parent>
+    </div>
+  </mat-tab>
+  <mat-tab label="Kontakt">
+    <app-tresc></app-tresc>
+  </mat-tab>
+</mat-tab-group>
+
+

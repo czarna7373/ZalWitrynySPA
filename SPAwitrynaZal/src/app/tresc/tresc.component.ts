@@ -14,6 +14,12 @@ export class TrescComponent implements OnInit {
     adres: 'Słoneczna 17, Białogóra (Polska)',
     telefon: 555666777
   }
+  Wejherowo: Dane = {
+    id: 2,
+    nazwa: 'Prywatny Salon',
+    adres: 'Konopnickiej 17, Wejherowo (Polska)',
+    telefon: 555666777
+  }
 
   constructor() { }
 
