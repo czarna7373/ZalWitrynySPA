@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -17,9 +17,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { DataService } from './data.service';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { ChildOutputComponent } from './child-output/child-output.component';
+import 'hammerjs';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    ParentComponent,
+    ChildComponent,
+    ChildOutputComponent,
     NawigacjaComponent,
     BanerComponent,
     TrescComponent
@@ -39,7 +49,8 @@ import { DataService } from './data.service';
     MatIconModule,
     MatCardModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+{
+  "screenshots":[
+    {
+      "img": "assets/img/Kbaner.jpg",
+      "description": "Lorem ipsum..",
+      "liked": "0"
+    },
+    {
+      "img": "assets/img/czerwonypazur1.jpg",
+      "description": "Lorem ipsum..",
+      "liked": "0"
+    },
+    {
+      "img": "assets/img/czerwonypazur2.jpg",
+      "description": "Lorem ipsum..",
+      "liked": "0"
+    }
+  ]
+}

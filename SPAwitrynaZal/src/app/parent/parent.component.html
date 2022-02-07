@@ -1,0 +1,7 @@
+<div class="container">
+ <h5 class="card-title">Wyślij do nas wiadomość</h5>
+   <p class="card-text">
+      {{messageFromChild}}
+         </p>
+     <app-child-output (childMessage)="getMessage($event)"></app-child-output>
+</div>
