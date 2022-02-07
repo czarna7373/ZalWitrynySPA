@@ -20,6 +20,9 @@ import { DataService } from './data.service';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ChildOutputComponent } from './child-output/child-output.component';
+import { MatIcon } from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 
 @NgModule({
@@ -46,9 +49,11 @@ import { ChildOutputComponent } from './child-output/child-output.component';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
+    MatIcon,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    MatMenuModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
